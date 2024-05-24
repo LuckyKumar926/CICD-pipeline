@@ -11,7 +11,7 @@ steps:
            'gcr.io/cicd-pipeline-424202/cicd-pipeline:$COMMIT_SHA']
 
   # Deploy container image to Cloud Run
-- name: 'gcr.io/cloud-builders/gcloud'
+  - name: 'gcr.io/cloud-builders/gcloud'
     args:
       [
         'beta',
