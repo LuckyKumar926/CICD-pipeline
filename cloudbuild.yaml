@@ -19,7 +19,7 @@ steps:
         'deploy',
         'cicd-pipeline-424202',
         '--region=us-central1',
-        '--platform=unmanaged',
+        '--platform=managed',
         '--image=gcr.io/cicd-pipeline-424202/cicd-pipeline:$COMMIT_SHA'
       ]
 
